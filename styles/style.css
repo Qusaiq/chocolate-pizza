@@ -1,0 +1,192 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.contanier {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+    padding-top: 20px;
+}
+
+.lefHeade {
+    float: left;
+}
+
+header div .logo {
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    top: -20px;
+    font-weight: bold;
+    font-size: 30px;
+    left: 10px;
+}
+
+.headSpan {
+    position: relative;
+    left: 53px;
+    bottom: 20px;
+}
+
+.logos {
+    position: relative;
+    float: right;
+    bottom: 50px;
+}
+
+.logoM {
+    margin-left: 15px;
+}
+
+.hr {
+    background-image: repeating-linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 10%);
+    background-size: 20px 20px;
+    width: 100%;
+    height: 15px;
+    opacity: 0.3;
+}
+.footerHRRight{
+    
+    width: 47%;
+    float: right;
+    opacity: 0.3;
+    
+}
+ .footerHRLeft{ 
+    width: 47%;
+    float: left;
+    opacity: 0.3;
+    
+}
+.footerHRLeft img{
+    position: relative;
+    bottom: 35px;
+    left: 565px;
+}
+.footerHRLeft hr{
+    
+    width: 100%
+
+    
+}
+.hrfooter .footerHRLeft hr img,.hrfooter .footerHRRight {
+
+    display: inline-block;
+}
+
+.fix {
+    clear: both;
+}
+.fixfooter{
+    clear: both;
+}
+
+.H1 {
+    opacity: 0.5;
+}
+
+h1 {
+    font: normal bold 40px Arial;
+}
+
+.mainHead {
+    margin-top: 30px;
+}
+
+section .img {
+    margin-top: 25px;
+    width: 100%;
+    height: 703px;
+}
+
+.p {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.p p {
+    text-indent: 60px;
+    opacity: 0.6;
+}
+
+
+
+.imglist div,.imglist2 div{
+    color: rgb(121, 104, 79);
+    /* margin-right: 1000px; */
+    font-size: 30px;
+    padding-top: 10px;
+
+}
+
+.listSEC{
+    position: relative;
+
+}
+.listSEC .imglist{
+    top: 39px;
+    left: 100px;
+    position: absolute;
+    float: left;
+    
+
+}
+.listSEC .imglist2{
+    top: 39px;
+    position: absolute;
+    float: right;
+    left: 700px;
+}
+.listSEC img{
+    width: 100%;
+}
+input[type=checkbox]:checked + label {
+    color:black;
+    size: 2px;
+    text-decoration: line-through;
+  } 
+footer {
+    width: 100%; 
+}
+.footer1{
+    float: left;
+}
+.footer2{
+    float: right;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.footer1 span{
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+}
+.footer1 span p{
+    opacity: 0.8;
+    width: 75%;
+    font-size: 20px;  
+}
+button{
+    width: 200px;
+    padding: auto;
+    height: 60px;
+    background-color: rgb(188, 112, 88);
+    color: white;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.footerText P{
+    text-align: center;
+    opacity:0.4;
+    
+
+}
+
